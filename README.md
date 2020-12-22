@@ -38,3 +38,43 @@ Install latest development version:
 
 - pip install git+https://github.com/pydata/pandas-datareader.git or
 - git clone https://github.com/pydata/pandas-datareader.git cd pandas-datareader python setup.py install
+
+
+**EDA**
+What is the max Close price for each bank's stock throughout the time period?
+**Bank Ticker**
+- BAC     54.900002
+- C      564.099976
+- GS     247.919998
+- JPM     70.080002
+- MS      89.300003
+- WPC     58.520000
+
+**Using this returns DataFrame, figure out on what dates each bank stock had the best and worst single day returns**
+**Worst:**
+- BAC Return   2009-01-20
+- C Return     2009-02-27
+- GS Return    2009-01-20
+- JPM Return   2009-01-20
+- MS Return    2008-10-09
+- WPC Return   2009-01-20
+
+**Best:** 
+- BAC Return   2009-04-09
+- C Return     2008-11-24
+- GS Return    2008-11-24
+- JPM Return   2009-01-21
+- MS Return    2008-10-13
+- WPC Return   2008-07-16
+
+
+__Riskiest Stocks for 2015?__
+
+- BAC Return    0.016163
+- C Return      0.015289
+- GS Return     0.014046
+- JPM Return    0.014017
+- MS Return     0.016249
+- WPC Return    0.012591
+__Morgan Stanley has the higest risk factor for 2015__
+
